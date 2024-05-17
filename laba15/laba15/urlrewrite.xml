@@ -1,0 +1,8 @@
+﻿<rewrite>
+	<rules>
+		<rule name="Redirect from home to home/index">
+			<match url="^home$" />
+			<action type="Redirect" url="home/index" />
+		</rule>
+	</rules>
+</rewrite>
